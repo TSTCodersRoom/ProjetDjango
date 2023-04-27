@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+{% block header %}
+{% include 'head.html' %}
+{% endblock header %}
+
+{% block content %}
+<div class="content">
+
+        <h2 class="titre">Trouvez votre prochaine voiture d'occasion avec nous !</h2>
+        <div class="accueil">
+
+            <div class="texte">
+                Bienvenue sur notre site de vente de voitures d'occasion en ligne ! Nous proposons une large sélection de voitures d'occasion de haute qualité à des prix compétitifs.
+                <br><br> Notre site propose une navigation facile et intuitive pour vous aider à trouver rapidement la voiture que vous recherchez. Nous avons une variété de marques et de modèles disponibles, et notre équipe est à votre disposition pour
+                répondre à toutes vos questions et vous aider à trouver la voiture qui convient le mieux à vos besoins.
+            </div>
+            <div class="logo-1"><img src="../static/img/image1.png"></div>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block footer %}
+{% include 'foot.html' %}
+{% endblock footer %}
+</body>
+
+</html>

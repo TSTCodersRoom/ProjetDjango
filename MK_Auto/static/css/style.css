@@ -1,0 +1,52 @@
+.header {
+    background-color: #225785;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h3 {
+    color: white;
+    margin-right: 80px;
+    font-size: 25px;
+}
+
+.logo {
+    margin-left: 70px;
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+}
+
+.accueil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texte {
+    font-size: 25px;
+    margin-left: 34px;
+    width: 45%;
+}
+
+.titre {
+    font-size: 30px;
+    margin-left: 34px;
+}
+
+footer {
+    background-color: #225785;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3 {
+    text-decoration: underline;
+}
+
+footer ul li {
+    list-style-type: none;
+}
